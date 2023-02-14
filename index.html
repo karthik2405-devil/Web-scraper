@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Details and Case Study Download</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <h1>User Details and Case Study Download</h1>
+    <form action="/download" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+      <button id="scrape-button" type="submit">Download Case Study</button>
+    </form>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+  <script src="scrappers.js"></script>
+  
+
+</html>
+
